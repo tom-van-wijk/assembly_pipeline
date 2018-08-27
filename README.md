@@ -55,9 +55,9 @@ The script can be runned with the following command:<br />
 	The output will be stored in multiple directories inside
 	this directory.
 
--	**'threads'**: Number of threads (virtual cpu cores) to be used. (Default = 8)
+-	**'threads'**: Number of threads (virtual cpu cores) to be used. (Default = 4)
 
--	**'memory'** Maximum amount of RAM (GB) to be used. (Default = 12)<br />
+-	**'memory'** Maximum amount of RAM (GB) to be used. (Default = 13)<br />
 	If the machine runs out of RAM memory, SPAde will crash
 	so adjust this parameter appropriately to your machine.
 
