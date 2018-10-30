@@ -172,10 +172,10 @@ def main():
 			assemble_reads(prefix, erne_out, spades_out, outdir+"/assemblies",
 				outdir+"/logfiles/spades", args.threads, args.ram, log)
 			# empty /outdir/temp if param save_temp = 'false'
-			if args.save_temp == "false":
-				log.info("Emptying "+outdir+"/temp to save storage space...")
-				os.system("rm -rf "+outdir+"/temp")
-				os.system("mkdir -p "+outdir+"/temp/spades")
+#			if args.save_temp == "false":
+#				log.info("Emptying "+outdir+"/temp to save storage space...")
+#				os.system("rm -rf "+outdir+"/temp")
+#				os.system("mkdir -p "+outdir+"/temp/spades")
 	# quality assessment of assemblies
 	quast_out = outdir+"/quality_control_assemblies"
 	assess_assemblies(outdir+"/assemblies", quast_out, args.threads, log)
