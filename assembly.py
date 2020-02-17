@@ -2,7 +2,7 @@
 
 
 # Name:         assembly.py
-# Author:       Tom van Wijk - RIVM Bilthoven
+# Author:       Tom van Wijk
 # Date:         26-09-2018
 # Licence:      GNU General Public License v3.0 (copy provided in directory)
 
