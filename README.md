@@ -30,7 +30,7 @@ The assemblies are assessed using QUAST, a quality report is generated.
 ### INSTALLATION
 
 -	Clone the assembly_pipeline repository to the desired location on your system.<br />
-	`git clone https://github.com/Papos92/assembly_pipeline.git`
+	`git clone https://github.com/tom-van-wijk/assembly_pipeline.git`
 -	Add the location of assembly.py to the PATH variable:<br />
 	`export PATH=$PATH:/path/to/assembly.py`<br />
 	(It is recommended to add this command to your ~/.bashrc file)
